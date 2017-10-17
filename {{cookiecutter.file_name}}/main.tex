@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+
+% https://tex.stackexchange.com/a/317160/128329
+\usepackage{fontspec}
+
+\usepackage{fullpage}
+\usepackage{parskip}
+
+
+% uncomment to enable extra commands
+% \input{commands.tex}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\noindent
+
+{
+    Sender name\\
+    address
+}
+
+\begin{flushright}
+    Receipient Name\\
+    Address
+\end{flushright}
+
+\vspace{3em}
+
+\textbf{Subject: {{cookiecutter.subject}}}
+
+(Text goes here)
+
+Yours sincerely,
+
+\begin{flushright}
+    Cédric VAN ROMPAY
+\end{flushright}
+
+
+\bibliographystyle{alpha}
+\bibliography{bib}{}
+
+\end{document}
