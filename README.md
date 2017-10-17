@@ -2,6 +2,6 @@ A [cookiecutter][] for writting letters using Latex.
 
 # Usage
 
-Just call `make` to create the PDF that will be in the `pdf` directory.
+This cookie cutter creates a folder where invoking `make` compiles `main.tex` into a PDF located in the `pdf` subdirectory.
 
 [cookiecutter]: https://github.com/audreyr/cookiecutter
